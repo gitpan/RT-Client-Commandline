@@ -1,0 +1,13 @@
+name: RT-Client-Commandline
+version: 0.01
+abstract: A command line interface for RT from Best Practical Solutions
+author: Jesse Vincent <jesse@bestpractical.com>
+license: perl
+distribution_type: module
+requires:
+  Text::ParseWords: 0
+  HTTP::Request::Common: 0
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.33
